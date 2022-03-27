@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;;
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none; 
+    cursor: pointer;
+    /* color: white; */
+ }
+
+ :root{
+     --homecolor: #06131d;
+     --hovercolor:orange;
+
+ }
+ section{
+     height: 100vh;
+ }
+ html{
+     scroll-behavior: smooth;
+ }

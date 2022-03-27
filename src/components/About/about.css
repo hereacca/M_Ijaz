@@ -1,0 +1,86 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;}
+
+.about-card{
+    width: 70vw;
+    height: 80vh;
+    /* background-color: black; */
+    box-shadow:0px 0px 9px 1px rgba(0, 0, 0, 0.7);
+    display: flex;
+    gap: 1rem;
+}
+
+.about-img{
+    width: 30vw;
+    height: 80vh;
+    
+}
+
+.rightside-content{
+
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    font-weight: 300;
+}
+/* .summary{
+} */
+
+/* .highlight{
+    
+} */
+.bullets{
+    display: inline-block;
+    background-color: var(--hovercolor);
+    
+    width: 15px; 
+    height: 15px; 
+    border-radius: 50%;
+}
+
+
+
+/* .about-btn{ 
+margin: 1rem 0rem;
+
+} */
+
+
+
+.get-resume{
+    font-size: 1.1rem;
+    background-color: var(--homecolor);
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    font-weight: 500;
+    box-shadow: 8px 10px 12px rgba(0, 0, 0, 0.7);
+}
+.get-resume:hover{
+    background-color: var(--hovercolor);
+    color: var(--homecolor);
+}
+
+.hire-me{
+    font-size: 1.1rem;
+    background-color: var(--homecolor);
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    margin-left: 3rem;
+    border-radius: 0.2rem;
+    font-weight: 500;
+    box-shadow: 8px 10px 12px rgba(0, 0, 0, 0.7);
+}
+.hire-me:hover{
+    background-color: var(--hovercolor);
+    color: var(--homecolor);
+}

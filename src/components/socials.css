@@ -1,0 +1,13 @@
+.main a{
+    color: #fff;
+}
+.main a:hover{
+
+    color: orange;
+    transform: scale(1.2);
+}
+
+.main{
+    display: flex;
+    gap: 0.5rem;
+}

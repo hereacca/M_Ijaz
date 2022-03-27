@@ -1,0 +1,76 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.contact-card{
+    width: 80vw;
+    height: 65vh;
+    /* color: #06131d; */
+    background-color: rgba(8, 16, 44, 0.8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    box-shadow:0px 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact-form {
+display: flex;
+justify-content: center;
+align-items: center;
+    background-color: var(--homecolor);
+    width: 30vw;
+    height: 60vh;
+    padding: 1rem;
+    border-radius:1rem ;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* input{
+    background-color: skyblue;
+} */
+label{
+    font-weight: 500;
+}
+input{
+    padding: 0.1rem;
+}
+
+textarea{
+    resize: none;
+    padding: 1rem;
+}
+
+.submit{
+    font-size: 1.1rem;
+    background-color: var(--hovercolor);
+    color: var(--homecolor);
+    outline: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    font-weight: 500;
+    box-shadow: 0px 0px 5px orange;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: var(--homecolor);
+    color: #fff;
+    transform: scale(1.1);
+}
