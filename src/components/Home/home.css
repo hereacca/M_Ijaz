@@ -94,6 +94,25 @@ bottom: 0;
 }
 .head-img{
 border-radius: 50%;
+width: 18rem;
+height: 18rem;
 
 }
 
+/* _______________Media Queries__________________ */
+
+@media screen and (max-width: 480px) {
+    
+    .home-content{
+        /* display: flex; */
+        /* justify-content: center;
+        align-items: center; */
+        flex-direction: column;
+       padding: 2rem;
+       /* gap: 3rem; */
+    }
+    .img{
+        margin-top: 1rem;
+    }
+    
+  }

@@ -18,8 +18,8 @@ const Home = () => {
               Hello i'm
               <span className="name"> Ijaz Khan</span>
             </h2>
-            <h1>Chartered Accountant ACCA Member</h1>
-            <p className="desc">Some Content here, that will be diplayed</p>
+            <h1>Chartered Accountant ( ACCA Member )</h1>
+            <p className="desc">ACCA with 4+ years of experience</p>
             <div className="btn-p">
               <a href={ijazResume} download className="resume-btn">
                 Get Resume
@@ -34,9 +34,7 @@ const Home = () => {
               className="head-img"
               src={ijaz2}
               alt="me"
-              height={300}
-              width={300}
-            />
+                       />
           </div>
         </div>
         <svg className='svg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">

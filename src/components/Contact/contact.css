@@ -42,9 +42,7 @@ align-items: center;
     gap: 1rem;
 }
 
-/* input{
-    background-color: skyblue;
-} */
+
 label{
     font-weight: 500;
 }
@@ -73,4 +71,66 @@ textarea{
     background-color: var(--homecolor);
     color: #fff;
     transform: scale(1.1);
+}
+
+/* ___________Media Queries___________ */
+
+@media screen and (max-width:480px) {
+    
+    .contact{
+        
+        margin-bottom: 3rem;
+    }
+
+
+.contact-card{
+    width: 80vw;
+    height: 65vh;
+    /* color: #06131d; */
+    background-color: rgba(8, 16, 44, 0.8);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    box-shadow:0px 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.contact-form {
+    
+        width: 60vw;
+        height: 40vh;
+        
+    }
+    .contact-form form{
+        
+        gap: 0.8rem;
+    }
+
+
+    label{
+        font-weight: 500;
+    }
+    input{
+        width: 30vw;
+        padding: 0.1rem;
+    }
+    
+    textarea{
+        resize: none;
+        padding: 1rem;
+        width: 45vw;
+    }
+    
+    .submit{
+        font-size: 0.8rem;
+    }
+    .submit:hover{
+        background-color: var(--homecolor);
+        color: #fff;
+        transform: scale(1.1);
+    }
+
+
 }

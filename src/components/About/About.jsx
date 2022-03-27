@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ij1 from "../../assets/ij1.jpg";
+import ij1 from "../../assets/ij1.jpeg";
 import ijazResume from '../../assets/IJAZR.pdf'
 // import Nav from '../Nav'
 const About = () => {
@@ -23,10 +23,10 @@ const About = () => {
           </p>
           <h4 className="highlight">Few Highlights:</h4>
           <ul>
-            <li > <p className="bullets"></p> One</li>
-            <li > <p className="bullets"></p> Two</li>
-            <li > <p className="bullets"></p> Three</li>
-            <li > <p className="bullets"></p> Four</li>
+            <li > <p className="bullets"></p> GAAP/IFRS Compliance</li>
+            <li > <p className="bullets"></p> QuickBooks Online</li>
+            <li > <p className="bullets"></p> Oracle ERP</li>
+            <li > <p className="bullets"></p> Performance Monitoring, KPIs</li>
           </ul>
           <p className="about-p">Expertise in all areas of full accounting cycle. A/Ps,
             A/Rs, Data extraction and reports analysis.</p>

@@ -13,11 +13,7 @@
 
 }
 
-.logo{
-    font-weight: bold;
-    font-size: 1.5rem;
-    margin-right: 15px;
-}
+
 
 .nav-items{
     display: flex;
@@ -36,4 +32,42 @@
     border-radius: 50px;
     padding: 0px 5px 0px 5px;
     
+}
+
+
+/* __________Media Queries___________ */
+
+@media screen and (max-width:480px) {
+    
+
+
+.nav {
+    
+    
+    padding: 0.5rem;
+    bottom: 2rem;
+    z-index: 2;
+ 
+ }
+ 
+ 
+ 
+ .nav-items{
+     display: flex;
+     gap: 1rem;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ .nav-items a{
+     font-size: 2rem;
+     color: black;
+ }
+ 
+ .active{
+     /* color: var(--hovercolor); */
+     background-color: var(--hovercolor);
+     border-radius: 50px;
+     padding: 0px 5px 0px 5px;
+     
+ }
 }

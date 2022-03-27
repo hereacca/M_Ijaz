@@ -67,3 +67,66 @@
   display: block;
   margin: 4rem;
 }
+
+/* _________________Media Queries____________ */
+
+@media screen and (max-width:480px) {
+.resume-sect {
+  /* width: 80vw; */
+  height: 90vh;
+}
+
+
+  .resume-card {
+
+      gap: 1rem;
+      overflow: hidden;
+      /* flex-wrap: nowrap; */
+    width: 90vw;
+    height: 90vh;
+   
+    
+    /* flex-direction: column; */
+    gap: 1rem;
+    /* overflow: visible; */
+    flex-wrap: wrap;
+    /* margin: 2rem 0rm; */
+  }
+  
+  .resume-nav-side {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+   
+    /* width: 100vw; */
+    height: 25vh;
+    display: flex;
+  }
+  .resume-ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 1rem;
+    gap: 2rem;
+  }
+  .resume-ul li a{
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      border-radius: 1rem;
+  }
+  
+  
+  
+  .resume-nav-click {
+    padding: 0rem;
+  }
+  .resume-right {
+    width: 90vw;
+    height: 0vh;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    
+  }
+  
+  
+  
+  
+}
+/* box-shadow:0px 0px 0px 0px rgba(0, 0, 0, 0); */
