@@ -54,7 +54,7 @@
  
  .nav-items{
      display: flex;
-     gap: 1rem;
+     gap: 0.7rem;
      justify-content: center;
      flex-wrap: wrap;
  }
