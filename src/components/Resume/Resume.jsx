@@ -1,6 +1,7 @@
 import React from "react";
 import "./resume.css";
 import { useState } from "react";
+import acca from '../../assets/acca.png'
 const Resume = () => {
   const [display, setDisplay] = useState("#edu");
 
@@ -65,16 +66,13 @@ const Resume = () => {
         </div>
         <div className="resume-right">
           <div className={display === "#edu" ? "show" : "hide"}>
-            <li> Matric: (Hira School And College Charbagh Swat -2010)</li>
-            <li>
-              {" "}
-              DBA: Diploma in business administration (GCMS, KPK SWAT) (2012)
+          <li>
+              ACCA UK: PAC Peshawar (Association of chartered certified
+              accountants) (2019) <img src={acca} alt="acca" className="acca"/>
             </li>
             <li>HDA UK: Higher Diploma in Accounting (PAC Peshawar -2013)</li>
-            <li>
-              ACCA UK: PAC Peshawar (Association of chartered certified
-              accountants) (2019)
-            </li>
+            
+            <li>DBA: Diploma in business administration (GCMS, KPK SWAT) (2012)</li>
           </div>
 
           <div className={display === "#skill" ? "show" : "hide"}>

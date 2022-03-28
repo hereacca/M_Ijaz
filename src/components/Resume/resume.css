@@ -29,6 +29,12 @@
   align-items: center;
   /* justify-content: center; */
 }
+.acca{
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
 .resume-ul {
   display: flex;
   flex-direction: column;
