@@ -60,6 +60,10 @@
   
 }
 
+.resume-right div li {
+margin: 1rem;
+}
+
 .resume-nav-click {
   background-color: var(--hovercolor);
   color: var(--homecolor);
@@ -71,7 +75,7 @@
 }
 .show {
   display: block;
-  margin: 4rem;
+  margin: 1rem;
 }
 
 /* _________________Media Queries____________ */
@@ -120,6 +124,7 @@
   }
   
   
+
   
   .resume-nav-click {
     padding: 0rem;

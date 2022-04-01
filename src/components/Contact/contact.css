@@ -84,7 +84,7 @@ textarea{
 
 
 .contact-card{
-    width: 80vw;
+    width: 90vw;
     height: 65vh;
     /* color: #06131d; */
     background-color: rgba(8, 16, 44, 0.8);
@@ -99,7 +99,7 @@ textarea{
 
 .contact-form {
     
-        width: 60vw;
+        width: 85vw;
         height: 40vh;
         
     }
@@ -113,14 +113,14 @@ textarea{
         font-weight: 500;
     }
     input{
-        width: 30vw;
+        width: 65vw;
         padding: 0.1rem;
     }
     
     textarea{
         resize: none;
         padding: 1rem;
-        width: 45vw;
+        width: 75vw;
     }
     
     .submit{

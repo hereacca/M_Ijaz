@@ -27,14 +27,12 @@ emailjs.sendForm('service_vk179vp','template_uubdkbu',form.current,'UFVozxgsL06Z
 
         <div className="contact-form">
           <form ref={form} onSubmit={sendEmail}>
-            <label>
-            Your Name : 
-              <input type="text" name="name" placeholder="Name"/>
-            </label>
-            <label>
-              Your Email : 
-              <input type="email" name="email" placeholder="Email"/>
-            </label>
+           
+              <input type="text" name="name" placeholder="Type your Name"/>
+            
+             
+              <input type="email" name="email" placeholder="Type your Email"/>
+           
             <textarea name="message" id="message" cols="36" rows="5" placeholder="Enter Your Message Here"></textarea>
 
 

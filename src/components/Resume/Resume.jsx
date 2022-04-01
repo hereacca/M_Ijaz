@@ -65,7 +65,7 @@ const Resume = () => {
           </ul>
         </div>
         <div className="resume-right">
-          <div className={display === "#edu" ? "show" : "hide"}>
+          <div className={display === "#edu" ? "show allign" : "hide"}>
           <li>
               ACCA UK: PAC Peshawar (Association of chartered certified
               accountants) (2019) <img src={acca} alt="acca" className="acca"/>
@@ -90,15 +90,11 @@ const Resume = () => {
             <h4>Work Places</h4>
             <li>
               CECOS UNIVERSITY OF IT AND EMERGING SCIENCES (PRECISION MEDICINE
-              LAB PROJECT) Assistant Manager Finance and Procurement: (Jul-2021
-              till Nov-2021)
+              LAB PROJECT) <br /> General Accountant: (Jan-2021 till Nov-2021)
             </li>
             <li>
-              Pakistan International Airlines (PIA) Accounts Officer
+              Pakistan International Airlines (PIA) <br /> Accounts Officer
               (Articleship):(Nov-2017 till Nov-2020)
-            </li>
-            <li>
-              SWIFT SUPPLIERS (Pvt) Manager Accounts: (Nov-2020 till Jul-2021)
             </li>
           </div>
           <div className={display === "#lang" ? "show" : "hide"}>
