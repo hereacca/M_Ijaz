@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/M_Ijaz/static/css/main.b6358237.css",
-    "main.js": "/M_Ijaz/static/js/main.0e54a164.js",
+    "main.css": "/M_Ijaz/static/css/main.56fe2659.css",
+    "main.js": "/M_Ijaz/static/js/main.f2c488a2.js",
     "static/media/IJAZR.pdf": "/M_Ijaz/static/media/IJAZR.1a3ad113e1179198ecf1.pdf",
     "static/media/ijaz2.jpg": "/M_Ijaz/static/media/ijaz2.d0fe018288633e0af2b3.jpg",
     "static/media/ij1.jpeg": "/M_Ijaz/static/media/ij1.529d44d9665ec8772e09.jpeg",
     "static/media/acca.png": "/M_Ijaz/static/media/acca.5c1469fe059d129af95a.png",
     "index.html": "/M_Ijaz/index.html",
-    "main.b6358237.css.map": "/M_Ijaz/static/css/main.b6358237.css.map",
-    "main.0e54a164.js.map": "/M_Ijaz/static/js/main.0e54a164.js.map"
+    "main.56fe2659.css.map": "/M_Ijaz/static/css/main.56fe2659.css.map",
+    "main.f2c488a2.js.map": "/M_Ijaz/static/js/main.f2c488a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6358237.css",
-    "static/js/main.0e54a164.js"
+    "static/css/main.56fe2659.css",
+    "static/js/main.f2c488a2.js"
   ]
 }
