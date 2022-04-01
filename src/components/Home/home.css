@@ -116,3 +116,11 @@ height: 18rem;
     }
     
   }
+
+
+  @media screen and (max-width: 380px) and (max-height:680px) {
+  .svg {
+    display: none;
+  
+  }
+  }
